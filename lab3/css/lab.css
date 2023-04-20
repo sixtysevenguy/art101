@@ -5,5 +5,14 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color:orange;
+  }
+
+  #portrait{
+    width :500px
+  }
+
+  .taskthree{
+    background-color: orange;
+    border:dotted 5px;
   }
