@@ -12,7 +12,7 @@ function sortingHat(str) {
       return "Blackbeard Pirates";
     } else if (mod === 2) {
       return "Red haired Shanks Pirates";
-    } else {
+    } else if (mod == 3) {
       return "White Beard Pirates";
     }
   }
@@ -21,8 +21,8 @@ function sortingHat(str) {
     var name = document.getElementById("input").value;
     var house = sortingHat(name);
     var output = document.createElement("p");
-    output.textContent = "The Sorting Hat has sorted you into " + house;
-    output.classList.add("styled-paragraph"); // Add your own CSS class for styling
+    output.textContent = "The captain had decided to let you join their crew. Welcome to the " + house;
+    output.classList.add("styled-paragraph"); 
     document.getElementById("output").appendChild(output);
   });
   
