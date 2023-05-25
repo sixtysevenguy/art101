@@ -15,7 +15,6 @@ function getFactorObj() {
         numValue = document.getElementById(numId).value;
         textValue = document.getElementById(textId).value;
         console.log(factor + ") num:", numValue, "text:", textValue)
-        // if either value is blank, don't use it
         if (numValue && textValue) {
             factorObj[numValue] = textValue;
         }
